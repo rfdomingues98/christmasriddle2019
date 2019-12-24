@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Feliz Natal</title>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+		<!-- Bootstrap core CSS -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+			rel="stylesheet">
+		<!-- Material Design Bootstrap -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<form name="form">
+				<div class="row">
+					<div class="form-row">
+						<div class="col">
+							<input name="input1" class="form-control mx-2" type="text" maxlength="4" size="4" required>
+						</div>
+						<div class="col">
+							<input name="input2" class="form-control mx-2" type="text" maxlength="4" size="4" required>
+						</div>
+						<div class="col">
+							<input name="input3" class="form-control mx-2" type="text" maxlength="4" size="4" required>
+						</div>
+						<div class="col">
+							<input name="input4" class="form-control mx-2" type="text" maxlength="4" size="4" required>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center mt-2">
+					<button id="submit" class="btn btn-danger" type="button" onclick="validateForm()">Abrir</button>
+				</div>
+			</form>
+		</div>
+
+		<script>
+			var portrait = window.innerWidth < window.innerHeight;
+			var PleaseRotateOptions = {
+				forcePortrait: false,
+				onlyMobile: false,
+				allowClickBypass: false,
+				message: "Roda o telemóvel por favor!",
+				subMessage: ""
+			};
+		</script>
+		<script src="pleaserotate.min.js"></script>
+		<!-- JQuery -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- Bootstrap tooltips -->
+		<script type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+		<!-- Bootstrap core JavaScript -->
+		<script type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<!-- MDB core JavaScript -->
+		<script type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+
+</html>
