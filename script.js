@@ -15,7 +15,7 @@ function validateForm() {
 		if (input2 === "6hqr") {
 			if (input3 === "J0CM") {
 				if (input4 === "QBJo") {
-					alert(1);
+
 					window.location.href = "video.html";
 				} else {
 					alert("ERROR");
