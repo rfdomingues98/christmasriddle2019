@@ -15,18 +15,17 @@ function validateForm() {
 		if (input2 === "6hqr") {
 			if (input3 === "J0CM") {
 				if (input4 === "QBJo") {
-
 					window.location.href = "video.html";
 				} else {
-					alert("ERROR");
+					alert("ERRO! Tenta outra vez!");
 				}
 			} else {
-				alert("ERROR");
+				alert("ERRO! Tenta outra vez!");
 			}
 		} else {
-			alert("ERROR");
+			alert("ERRO! Tenta outra vez!");
 		}
 	} else {
-		alert("ERROR");
+		alert("ERRO! Tenta outra vez!");
 	}
 }
